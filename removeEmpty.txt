@@ -1,0 +1,13 @@
+d a c 5
+a b b 2
+p
+d a a 3
+d a a 3
+d a a 3
+d a a 3
+d a a 3
+d a a 3
+d a a 3
+p
+d b b 2
+p

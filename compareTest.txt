@@ -1,0 +1,67 @@
+a a a 1
+a a b 1
+a a c 1
+a a d 1
+a a e 1
+a a f 1
+a a g 1
+a a h 1
+a a i 1
+a a j 1
+a a k 1
+a a l 1
+a a m 1
+a a n 1
+a a o 1
+a a p 1
+a a q 1
+a a r 1
+a a s 1
+a a t 1
+a a u 1
+a a v 1
+a a w 1
+a a x 1
+a a y 1
+a a z 1
+a b a 1
+a c a 1
+a d a 1
+a e a 1
+a f a 1
+a g a 1
+a h a 1
+a i a 1
+a j a 1
+a k a 1
+a l a 1
+a m a 1
+a n a 1
+a o a 1
+a p a 1
+a q a 1
+a r a 1
+a s a 1
+m
+r
+p
+s
+p
+c
+a clear worked 1
+p
+m
+e testing length cases
+c
+a a zzzzz 2
+a ab zzzz 2
+a ab zzzz 1
+a a aaaa 4 
+a az aaa 3
+a a aaaa 2
+p
+s
+p
+c 
+e cleared
+m
