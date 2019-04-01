@@ -1,0 +1,24 @@
+e attempting to delete empty list
+c
+d test test 1
+d one more 2
+e populating UtPod with songs
+a song one 10
+a song two 8
+a song three 9
+a song four 10
+p
+e attempting to remove song that isnt in UtPod
+d not in 1
+e removing last song
+d song four 10
+p
+removing first song
+d song one 10
+p
+e removing rest
+d song two 8
+d song three 9
+e printing List:
+p
+e done
