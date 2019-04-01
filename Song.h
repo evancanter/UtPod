@@ -14,6 +14,7 @@ class Song {
     public:
 
         Song(string a,string n, int m);
+        Song();
         string getArtist() const;
         string getName() const;
         int getMem() const;

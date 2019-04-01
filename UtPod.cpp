@@ -1,5 +1,6 @@
 //UtPod.cpp
 #include "UtPod.h"
+#include "Song.h"
 #include <cstdlib>
 #include <ctime>
 using namespace std;
@@ -35,8 +36,8 @@ int UtPod::getRemainingMemory() {
 }
 
 int UtPod::addSong(Song const &s) {
-    if(getRemainingMemory()>=s.getMem()) {
-       SongNode * temp = new SongNode(*temp);
+      if(getRemainingMemory()>=s.getMem()) {
+      struct SongNode * temp = new SongNode;
         temp->s=s;
         if(songs==NULL) {
             songs=temp;

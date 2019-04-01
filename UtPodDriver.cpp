@@ -11,9 +11,9 @@ You will want to do more complete testing.
 */
 #include <cstdlib>
 #include <iostream>
-#include "fstream"
-#include "Song.h"
+#include <fstream>
 #include "UtPod.h"
+#include "Song.h"
 #include <string>
 
 using namespace std;
@@ -23,13 +23,14 @@ using namespace std;
 //Reads file with format: command [arg] [arg] [arg]
 //descriptions in switch statement
 int main(int argc, char* argv[]) {
-    string fname = argv[1];
+   
+ string fname = argv[1];
     int podSize=512;
     if(argc>2) {
         podSize=atoi(argv[2]);
     }
     ifstream inFile;
-    inFile.open(fname);
+    inFile.open(fname.c_str());
     string title,artist;
     char command;
     int mem;
@@ -90,5 +91,9 @@ int main(int argc, char* argv[]) {
         }
         inFile >>command;
     }
-
+/*
+UtPod t;
+Song s2("test","teset",3);
+t.addSong(s2);
+t.showSongList();*/
 }

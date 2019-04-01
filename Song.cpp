@@ -7,7 +7,11 @@ Song::Song(string a,string n, int m) {
     name=n;
     mem=m;
 }
-
+Song::Song() {
+	artist="";
+	name="";
+	mem=0;
+}
 //Returns the artist of the song
 //i/p: none o/p string containing artist
 string Song::getArtist() const{ return artist;}
@@ -44,13 +48,12 @@ bool Song::operator <(Song const &s2) {/*
         ((this->artist==s2.artist) && (this->name==s2.name) && (this->mem<s2.mem));
 }
 bool Song::operator ==(Song const &s2) { 
-    string song_string1=this->artist+this->name+to_string(this->mem);
-    string song_string2=s2.artist+s2.name+to_string(s2.mem);
-    return song_string1==song_string2;
+  return this->artist == s2.artist && this->name==s2.name && this->mem == s2.mem;
+    
     
 }
 bool Song::operator !=(Song const &s2) {
-    string song_string1=this->artist+this->name+to_string(this->mem);
-    string song_string2=s2.artist+s2.name+to_string(s2.mem);
-    return song_string1!=song_string2;
+ return !(this->artist==s2.artist && this->name==s2.name && this->mem==s2.mem);  
+
+   
 }
