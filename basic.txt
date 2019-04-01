@@ -1,18 +1,40 @@
-a aaaa aaaa 1
-a aaaa aaab 1
-a aaaa aaac 1
+e adding 10 songs
+a 1 name1 2
+a 2 name2 2
+a 3 name3 2
+a 4 name4 2
+a 5 name5 2
+a 6 name6 2
+a 7 name7 2
+a 8 name8 2
+a 9 name9 2
+a 10 name10 2
 p
+m
+e --------
+e shuffled: 
 r
 p
+e --------
+e sorted:
 s
 p
-d aaaa aaab 1
+e removing first 5
+d 1 name1 2
+d 2 name2 2
+d 3 name3 2
+d 4 name4 2
+d 5 name5 2
 p
-d aaaa aaaa 1
+e removing nonexistent
+d what isthis 10
+e removing rest
+d 6 name6 2
+d 7 name7 2
+d 8 name8 2
+d 9 name9 2
+d 10 name10 2
+e list:
 p
-d aaaa aaac 1
-p
-a test test 12
-p
-c
-p
+e done
+m
