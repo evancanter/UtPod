@@ -13,7 +13,7 @@ d not in 1
 e removing last song
 d song four 10
 p
-removing first song
+e removing first song
 d song one 10
 p
 e removing rest
